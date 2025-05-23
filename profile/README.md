@@ -1,4 +1,6 @@
 # Project Title
+### [Branch 전략 - 꼭 보기!!!](https://github.com/girlznight/Project-GirzDay-react-repo/blob/main/README.md)
+
 
 <img src="<!-- 이미지 URL -->" width="200" height="200"/>
 
