@@ -40,8 +40,6 @@ Write the English version of your project overview here.
 
 - **フロントエンド / Frontend**: 사용 기술 (예: React, Vue 등)
 - **バックエンド / Backend**: 사용 기술 (예: Node.js, Flask 등)
-- **AI・大規模言語モデル / AI・LLM**:  
-  - 사용한 모델 및 서버 설명  
 - **データベース / Database**: SQLite, MySQL, MongoDB 등
 
 ---
