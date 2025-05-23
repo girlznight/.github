@@ -11,6 +11,8 @@ npm i -g gitmoji-cli
 gitmoji -c
 ```
 
+### 채워 나가야 할 부분 ⬇️
+  
 ## 🔗 リポジトリ / Repositories
 
 - [FRONTEND REPO](#)
