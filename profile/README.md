@@ -7,6 +7,7 @@
 ```bash
 npm i -g gitmoji-cli     
 gitmoji -c
+```
 
 ## 🔗 リポジトリ / Repositories
 
