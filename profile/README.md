@@ -73,6 +73,6 @@ Describe the purpose and goals of the project in English.
 
 - [API仕様書 / API Specification](#)
 - [DBテーブル設計 / DB Table Design](#)
-- [UIシナリオ / UI Scenario](#)
+- [UIシナリオ / UI Scenario](https://www.figma.com/design/bHP3cXgSJ24emyrV1yNXRT/Untitled?node-id=0-1&t=94VpRgeA6CHY3eCb-1)
 
 ---
