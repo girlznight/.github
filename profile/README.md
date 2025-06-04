@@ -2,7 +2,7 @@
 ### [Branch 전략 - 꼭 보기!!!](https://github.com/girlznight/Project-GirzDay-react-repo/blob/main/README.md)
 
 
-<img src="<!-- 이미지 URL -->" width="200" height="200"/>
+<img width="212" alt="Image" src="https://github.com/user-attachments/assets/3685339f-e3eb-4841-8bfa-67aafe30979b" width="200" height="200"/>
 
 ### コミットルール / Commit Rule : [Gitmoji](https://gitmoji.dev/)
 
