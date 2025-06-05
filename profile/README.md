@@ -1,4 +1,4 @@
-# Yellow Memo
+# 📝 Yellow Memo
 ### [Branch 전략 - 꼭 보기!!!](https://github.com/girlznight/Project-GirzDay-react-repo/blob/main/README.md)
 
 
