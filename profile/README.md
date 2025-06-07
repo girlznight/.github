@@ -1,6 +1,8 @@
 # 📝 Yellow Memo
 ### [Branch 전략 - 꼭 보기!!!](https://github.com/girlznight/Project-GirzDay-react-repo/blob/main/README.md)
 
+- [UIシナリオ / UI Scenario](https://www.figma.com/design/bHP3cXgSJ24emyrV1yNXRT/Untitled?node-id=0-1&t=94VpRgeA6CHY3eCb-1)
+
 
 <img alt="Image" src="https://github.com/user-attachments/assets/d91eb918-1423-4869-a666-5c2476aa4e3e" width="200" height="200"/>
 
