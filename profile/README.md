@@ -47,11 +47,33 @@ It carries a quiet philosophy: to respect every thought, no matter how small.
 ---
 
 ## 🌟 主な機能 / Key Features
+- **ドラッグ&ドロップ対応のメモボード / Drag & Drop Memo Board**
+テキストボックスや画像を自由にドラッグして配置可能。位置情報はリアルタイムで保存され、UI上で直感的に操作できる。
+Textboxes and images can be freely dragged and positioned; their locations are updated in real time for intuitive interaction.
 
-- **機能1 / Feature 1**: 日本語の説明 / Description in English  
-- **機能2 / Feature 2**: 日本語の説明 / Description in English  
-- **機能3 / Feature 3**: 日本語の説明 / Description in English  
-（必要に応じて追加）
+- **インタラクティブなサイドバー / Interactive Sidebar**
+サイドバーはトグルボタンで表示・非表示を切り替え可能。プロフィール画像、フィルター付きの投稿リスト、スクロール対応。
+The sidebar can be toggled on and off, features a profile image, filterable post list, and supports scrolling.
+
+- **レスポンシブ＆モダンUIデザイン / Responsive & Modern UI Design**
+Tailwind CSSを活用し、どのデバイスでも美しく見えるレイアウトとアニメーションを実現。ホバーやフェード、スクロール時のエフェクトも実装。
+Uses Tailwind CSS for beautiful layouts and animations across all devices, including hover, fade, and scroll-triggered effects.
+
+- **プロフィール画像の編集機能 / Editable Profile Image**
+プロフィール画像はアップロード・変更が可能で、未設定時はデフォルト画像を表示。
+Users can upload and edit their profile image; a default image is shown if none is set.
+
+- **スクロールアニメーション付きアバウトセクション / About Section with Scroll Animation**
+「About this project」セクションはスクロール時にフェードインし、ページの下部に自然に表示される。
+The "About this project" section fades in with a scroll animation, appearing naturally at the bottom of the page.
+
+- **アクセシブルなカスタムボタン / Accessible Custom Buttons**
+すべての主要操作はカスタムボタンで統一されており、アクセシビリティと一貫したUXを実現。
+All main actions use custom buttons for consistent UX and accessibility.
+
+- **リアルタイムな投稿リストの更新 / Real-time Post List Updates**
+投稿が追加・更新・削除されるとサイドバーのリストが自動的に最新状態に更新される。
+The sidebar post list updates automatically in real time when posts are added, updated, or deleted.
 
 ---
 
@@ -68,8 +90,8 @@ It carries a quiet philosophy: to respect every thought, no matter how small.
   - `GET /api/xxx`  
   - `POST /api/xxx`  
   - `PATCH /api/xxx`
+  
 - **DBテーブル / Database Structure**:  
-
 <details>
 <summary>user</summary>
 
@@ -150,17 +172,17 @@ It carries a quiet philosophy: to respect every thought, no matter how small.
 ## 🎯 プロジェクトの目的 / Project Purpose
 
 **日本語:**  
-このプロジェクトを通して達成したい目的・意図を記入します。
+YellowMemoプロジェクトは、日常の中でふと浮かぶアイデアや気付きを、簡単に記録・共有できる空間を提供することを目的としています。複雑な機能ではなく、ユーザーが直感的にメモを書き、編集し、削除できる自然な体験を重視します。シンプルなデータ構造と使いやすいインターフェースを通じて、ユーザーのあらゆる考えを大切にし、個人の創造性と協力をサポートするサービスを目指しています。
 
 **English:**  
-Describe the purpose and goals of the project in English.
+The purpose of the YellowMemo project is to provide a simple and intuitive platform where users can easily record and share ideas that arise in their daily lives. Rather than focusing on complex features, the project emphasizes a natural and seamless user experience for writing, editing, and deleting memos. By adopting a minimal data structure and user-friendly interface, YellowMemo aims to value every user’s thoughts and support both individual creativity and collaborative efforts
 
 ---
 
 ## 📎 参考 / References
 
-- [API仕様書 / API Specification](#)
-- [DBテーブル設計 / DB Table Design](#)
+- [API仕様書 / API Specification](https://www.notion.so/207052ad29dc8064b4b6c6c46db69f2d?source=copy_link)
+- [DBテーブル設計 / DB Table Design](https://www.notion.so/DB-207052ad29dc80b1b986f21b748014ad?source=copy_link)
 - [UIシナリオ / UI Scenario](https://www.figma.com/design/bHP3cXgSJ24emyrV1yNXRT/Untitled?node-id=0-1&t=94VpRgeA6CHY3eCb-1)
 
 ---
