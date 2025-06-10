@@ -1,4 +1,4 @@
-# 📝 Yellow Memo
+# 📝 YellowMemo.
 ### [Branch 전략 - 꼭 보기!!!](https://github.com/girlznight/Project-GirzDay-react-repo/blob/main/README.md)
 
 [UIシナリオ / UI Scenario](https://www.figma.com/design/bHP3cXgSJ24emyrV1yNXRT/Untitled?node-id=0-1&t=94VpRgeA6CHY3eCb-1)
@@ -26,7 +26,7 @@ gitmoji -c
 
 **日本語**  
 小さくても、大切なアイデア。
-Yellowmemo. プロジェクトは、ある日、机の上に置かれた一枚の黄色い付箋から始まりました。
+YellowMemo. プロジェクトは、ある日、机の上に置かれた一枚の黄色い付箋から始まりました。
 ふと浮かんだ考えや、通り過ぎるアイデアを、どこかに残して共有したいと思ったのです。
 このアプリは、複雑な機能ではなく、「記録すること」そのものに焦点を当てて作られました。
 ReactとJSON Serverで開発されており、
@@ -36,7 +36,7 @@ ReactとJSON Serverで開発されており、
 
 **English**  
 Small, but essential ideas.
-The Yellowmemo. project began one day with a single yellow sticky note left on a desk.
+The YellowMemo. project began one day with a single yellow sticky note left on a desk.
 We wanted to keep and share thoughts that popped into our minds—ideas that come and go in an instant.
 This app was created not to focus on complex features, but to simply honor the act of recording ideas.
 Built with React and a JSON server,
@@ -68,8 +68,7 @@ It carries a quiet philosophy: to respect every thought, no matter how small.
   - `GET /api/xxx`  
   - `POST /api/xxx`  
   - `PATCH /api/xxx`
-- **DBテーブル / DB Tables**:  
-## Database Structure
+- **DBテーブル / Database Structure**:  
 
 <details>
 <summary>user</summary>
