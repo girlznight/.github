@@ -69,78 +69,80 @@ It carries a quiet philosophy: to respect every thought, no matter how small.
   - `POST /api/xxx`  
   - `PATCH /api/xxx`
 - **DBテーブル / DB Tables**:  
+## Database Structure
+
 <details>
 <summary>user</summary>
 
-| 필드명   | 타입   | 설명                   |
-|----------|--------|------------------------|
-| id       | number | 유저 고유 ID           |
-| loginId  | string | 로그인용 ID            |
-| profile  | string | 프로필 이미지 (Base64) |
+| Field     | Type   | Description                   |
+|-----------|--------|-------------------------------|
+| id        | number | Unique user ID                |
+| loginId   | string | Login ID                      |
+| profile   | string | Profile image (Base64 format) |
 
 </details>
 
 <details>
 <summary>auth</summary>
 
-| 필드명   | 타입   | 설명                          |
-|----------|--------|-------------------------------|
-| id       | number | 인증 정보 고유 ID             |
-| password | string | 비밀번호                      |
-| userId   | number | 연결된 유저 ID (foreign key)  |
+| Field     | Type   | Description                       |
+|-----------|--------|-----------------------------------|
+| id        | number | Unique auth ID                    |
+| password  | string | Password                          |
+| userId    | number | Linked user ID (foreign key)      |
 
 </details>
 
 <details>
 <summary>post</summary>
 
-| 필드명   | 타입   | 설명             |
-|----------|--------|------------------|
-| id       | number | 포스트 고유 ID   |
-| userId   | number | 작성자 유저 ID   |
+| Field     | Type   | Description                       |
+|-----------|--------|-----------------------------------|
+| id        | number | Unique post ID                    |
+| userId    | number | Author's user ID (foreign key)    |
 
 </details>
 
 <details>
 <summary>textbox</summary>
 
-| 필드명   | 타입   | 설명                           |
-|----------|--------|--------------------------------|
-| id       | number | 텍스트박스 고유 ID             |
-| x        | number | X 좌표                          |
-| y        | number | Y 좌표                          |
-| postId   | number | 포함된 포스트 ID (foreign key) |
-| content  | string | 텍스트 내용                     |
+| Field     | Type   | Description                       |
+|-----------|--------|-----------------------------------|
+| id        | number | Unique textbox ID                 |
+| x         | number | X position                        |
+| y         | number | Y position                        |
+| postId    | number | Parent post ID (foreign key)      |
+| content   | string | Text content                      |
 
 </details>
 
 <details>
 <summary>postit</summary>
 
-| 필드명   | 타입   | 설명                           |
-|----------|--------|--------------------------------|
-| id       | number | 포스트잇 고유 ID               |
-| x        | number | X 좌표                          |
-| y        | number | Y 좌표                          |
-| z        | number | 쌓이는 순서 (Z-index)          |
-| postId   | number | 포함된 포스트 ID (foreign key) |
-| content  | string | 메모 내용                       |
-| userId   | number | 작성자 유저 ID                 |
+| Field     | Type   | Description                       |
+|-----------|--------|-----------------------------------|
+| id        | number | Unique post-it ID                 |
+| x         | number | X position                        |
+| y         | number | Y position                        |
+| z         | number | Z-index (stacking order)          |
+| postId    | number | Parent post ID (foreign key)      |
+| content   | string | Memo content                      |
+| userId    | number | Author's user ID (foreign key)    |
 
 </details>
 
 <details>
 <summary>image</summary>
 
-| 필드명   | 타입   | 설명                           |
-|----------|--------|--------------------------------|
-| id       | number | 이미지 고유 ID                 |
-| x        | number | X 좌표                          |
-| y        | number | Y 좌표                          |
-| z        | number | 쌓이는 순서 (Z-index)          |
-| postId   | number | 포함된 포스트 ID (foreign key) |
-| src      | string | 이미지 데이터 (Base64)         |
-| userId   | number | 업로더 유저 ID                 |
+| Field     | Type   | Description                       |
+|-----------|--------|-----------------------------------|
+| id        | number | Unique image ID                   |
+| x         | number | X position                        |
+| y         | number | Y position                        |
+| z         | number | Z-index (stacking order)          |
+| postId    | number | Parent post ID (foreign key)      |
+| src       | string | Image source (Base64 format)      |
+| userId    | number | Uploader's user ID (foreign key)  |
 
 </details>
 
