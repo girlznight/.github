@@ -17,8 +17,7 @@ gitmoji -c
   
 ## 🔗 リポジトリ / Repositories
 
-- [FRONTEND REPO](#)
-- [BACKEND REPO](#)
+- [PROJECT REPO](https://github.com/girlznight/Project-GirzDay-react-repo)
 - [기타 관련 레포 / Others](#)
 
 ---
@@ -26,10 +25,24 @@ gitmoji -c
 ## 📖 プロジェクト紹介 / Project Overview
 
 **日本語**  
-ここに日本語でのプロジェクト概要を記入します。
+小さくても、大切なアイデア。
+Yellowmemo. プロジェクトは、ある日、机の上に置かれた一枚の黄色い付箋から始まりました。
+ふと浮かんだ考えや、通り過ぎるアイデアを、どこかに残して共有したいと思ったのです。
+このアプリは、複雑な機能ではなく、「記録すること」そのものに焦点を当てて作られました。
+ReactとJSON Serverで開発されており、
+メモを書いて、直して、消す——そのすべての流れが、自然でシンプルになるように設計されています。
+データ構造はシンプルですが、
+その中には、「考えを大切にしたい」という小さな哲学が込められています。
 
 **English**  
-Write the English version of your project overview here.
+Small, but essential ideas.
+The Yellowmemo. project began one day with a single yellow sticky note left on a desk.
+We wanted to keep and share thoughts that popped into our minds—ideas that come and go in an instant.
+This app was created not to focus on complex features, but to simply honor the act of recording ideas.
+Built with React and a JSON server,
+It’s designed so that writing, editing, and deleting a memo flows naturally and simply.
+Though the data structure is minimal,
+It carries a quiet philosophy: to respect every thought, no matter how small.
 
 ---
 
@@ -44,9 +57,8 @@ Write the English version of your project overview here.
 
 ## 🛠 技術スタック / Tech Stack
 
-- **フロントエンド / Frontend**: 사용 기술 (예: React, Vue 등)
-- **バックエンド / Backend**: 사용 기술 (예: Node.js, Flask 등)
-- **データベース / Database**: SQLite, MySQL, MongoDB 등
+- **フロントエンド / Frontend**: React.js 
+- **バックエンド / Backend**: JSON server
 
 ---
 
@@ -57,7 +69,80 @@ Write the English version of your project overview here.
   - `POST /api/xxx`  
   - `PATCH /api/xxx`
 - **DBテーブル / DB Tables**:  
-  - table1, table2, table3 등
+<details>
+<summary>user</summary>
+
+| 필드명   | 타입   | 설명                   |
+|----------|--------|------------------------|
+| id       | number | 유저 고유 ID           |
+| loginId  | string | 로그인용 ID            |
+| profile  | string | 프로필 이미지 (Base64) |
+
+</details>
+
+<details>
+<summary>auth</summary>
+
+| 필드명   | 타입   | 설명                          |
+|----------|--------|-------------------------------|
+| id       | number | 인증 정보 고유 ID             |
+| password | string | 비밀번호                      |
+| userId   | number | 연결된 유저 ID (foreign key)  |
+
+</details>
+
+<details>
+<summary>post</summary>
+
+| 필드명   | 타입   | 설명             |
+|----------|--------|------------------|
+| id       | number | 포스트 고유 ID   |
+| userId   | number | 작성자 유저 ID   |
+
+</details>
+
+<details>
+<summary>textbox</summary>
+
+| 필드명   | 타입   | 설명                           |
+|----------|--------|--------------------------------|
+| id       | number | 텍스트박스 고유 ID             |
+| x        | number | X 좌표                          |
+| y        | number | Y 좌표                          |
+| postId   | number | 포함된 포스트 ID (foreign key) |
+| content  | string | 텍스트 내용                     |
+
+</details>
+
+<details>
+<summary>postit</summary>
+
+| 필드명   | 타입   | 설명                           |
+|----------|--------|--------------------------------|
+| id       | number | 포스트잇 고유 ID               |
+| x        | number | X 좌표                          |
+| y        | number | Y 좌표                          |
+| z        | number | 쌓이는 순서 (Z-index)          |
+| postId   | number | 포함된 포스트 ID (foreign key) |
+| content  | string | 메모 내용                       |
+| userId   | number | 작성자 유저 ID                 |
+
+</details>
+
+<details>
+<summary>image</summary>
+
+| 필드명   | 타입   | 설명                           |
+|----------|--------|--------------------------------|
+| id       | number | 이미지 고유 ID                 |
+| x        | number | X 좌표                          |
+| y        | number | Y 좌표                          |
+| z        | number | 쌓이는 순서 (Z-index)          |
+| postId   | number | 포함된 포스트 ID (foreign key) |
+| src      | string | 이미지 데이터 (Base64)         |
+| userId   | number | 업로더 유저 ID                 |
+
+</details>
 
 ---
 
