@@ -87,7 +87,10 @@ The sidebar post list updates automatically in real time when posts are added, u
 ## 📚 主なAPI・DB設計 / Main API & DB Design
 
 - **エンドポイント分類 / Endpoint Categories**  
-エンドポイント分類 / Endpoint Categories
+
+
+<details>
+<summary>エンドポイント分類 / Endpoint Categories</summary>
 
 - GET /user/:id      // 사용자 정보 조회 (Get user info)
 - PATCH /user/:id     // 프로필 이미지 등 사용자 정보 수정 (Update user profile)
@@ -101,6 +104,7 @@ The sidebar post list updates automatically in real time when posts are added, u
 - GET /auth        // 인증 정보 조회 (Get auth info)
 - POST /auth       // 인증 정보 생성 (Create auth info)
 そのほか必要に応じてエンドポイント追加 (Other endpoints as needed)
+</details>
   
 - **DBテーブル / Database Structure**:  
 <details>
