@@ -86,7 +86,7 @@ The sidebar post list updates automatically in real time when posts are added, u
 
 ## 📚 主なAPI・DB設計 / Main API & DB Design
 
-- **エンドポイント分類 / Endpoint Categories**  
+**エンドポイント分類 / Endpoint Categories**  
 
 
 <details>
@@ -106,7 +106,7 @@ The sidebar post list updates automatically in real time when posts are added, u
 そのほか必要に応じてエンドポイント追加 (Other endpoints as needed)
 </details>
   
-- **DBテーブル / Database Structure**:  
+**DBテーブル / Database Structure**:  
 <details>
 <summary>user</summary>
 
