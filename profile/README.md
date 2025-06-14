@@ -37,37 +37,33 @@ It carries a quiet philosophy: to respect every thought, no matter how small.
 ---
 
 ## 🌟 主な機能 / Key Features
-**ドラッグ&ドロップ対応のメモボード / Drag & Drop Memo Board**  
-`🇯🇵 テキストボックスや画像を自由にドラッグして配置可能。位置情報はリアルタイムで保存され、UI上で直感的に操作できる。
+**ドラッグ&ドロップ対応のメモボード / Drag & Drop Memo Board**  <br>
+🇯🇵 テキストボックスや画像を自由にドラッグして配置可能。位置情報はリアルタイムで保存され、UI上で直感的に操作できる。<br>
 🇺🇸 Textboxes and images can be freely dragged and positioned; their locations are updated in real time for intuitive interaction.
-`
 
-**インタラクティブなサイドバー / Interactive Sidebar**
 
-`🇯🇵 サイドバーはトグルボタンで表示・非表示を切り替え可能。プロフィール画像、フィルター付きの投稿リスト、スクロール対応。
-🇺🇸 The sidebar can be toggled on and off, features a profile image, filterable post list, and supports scrolling.`
+**インタラクティブなサイドバー / Interactive Sidebar**<br>
+🇯🇵 サイドバーはトグルボタンで表示・非表示を切り替え可能。プロフィール画像、フィルター付きの投稿リスト、スクロール対応。<br>
+🇺🇸 The sidebar can be toggled on and off, features a profile image, filterable post list, and supports scrolling.
 
-**レスポンシブ＆モダンUIデザイン / Responsive & Modern UI Design**
+**レスポンシブ＆モダンUIデザイン / Responsive & Modern UI Design**<br>
+🇯🇵 Tailwind CSSを活用し、どのデバイスでも美しく見えるレイアウトとアニメーションを実現。ホバーやフェード、スクロール時のエフェクトも実装。<br>
+🇺🇸 Uses Tailwind CSS for beautiful layouts and animations across all devices, including hover, fade, and scroll-triggered effects.
 
-`🇯🇵 Tailwind CSSを活用し、どのデバイスでも美しく見えるレイアウトとアニメーションを実現。ホバーやフェード、スクロール時のエフェクトも実装。
-🇺🇸 Uses Tailwind CSS for beautiful layouts and animations across all devices, including hover, fade, and scroll-triggered effects.`
-
-**プロフィール画像の編集機能 / Editable Profile Image**
-
-🇯🇵 プロフィール画像はアップロード・変更が可能で、未設定時はデフォルト画像を表示。
+**プロフィール画像の編集機能 / Editable Profile Image**<br>
+🇯🇵 プロフィール画像はアップロード・変更が可能で、未設定時はデフォルト画像を表示。<br>
 🇺🇸 Users can upload and edit their profile image; a default image is shown if none is set.
 
-**スクロールアニメーション付きアバウトセクション / About Section with Scroll Animation**
-
-🇯🇵 「About this project」セクションはスクロール時にフェードインし、ページの下部に自然に表示される。
+**スクロールアニメーション付きアバウトセクション / About Section with Scroll Animation**<br>
+🇯🇵 「About this project」セクションはスクロール時にフェードインし、ページの下部に自然に表示される。<br>
 🇺🇸 The "About this project" section fades in with a scroll animation, appearing naturally at the bottom of the page.
 
 **アクセシブルなカスタムボタン / Accessible Custom Buttons** <br>
 🇯🇵 すべての主要操作はカスタムボタンで統一されており、アクセシビリティと一貫したUXを実現。<br>
 🇺🇸 All main actions use custom buttons for consistent UX and accessibility.
 
-**リアルタイムな投稿リストの更新 / Real-time Post List Updates**
-🇯🇵 投稿が追加・更新・削除されるとサイドバーのリストが自動的に最新状態に更新される。
+**リアルタイムな投稿リストの更新 / Real-time Post List Updates**<br>
+🇯🇵 投稿が追加・更新・削除されるとサイドバーのリストが自動的に最新状態に更新される。<br>
 🇺🇸 The sidebar post list updates automatically in real time when posts are added, updated, or deleted.
 
 ---
