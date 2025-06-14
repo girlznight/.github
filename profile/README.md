@@ -15,7 +15,7 @@
 ## 📖 プロジェクト紹介 / Project Overview
 
 **🇯🇵**  
-小さくても、大切なアイデア。
+小さくても、大切なアイデア。<br>
 YellowMemo. プロジェクトは、ある日、机の上に置かれた一枚の黄色い付箋から始まりました。
 ふと浮かんだ考えや、通り過ぎるアイデアを、どこかに残して共有したいと思ったのです。
 このアプリは、複雑な機能ではなく、「記録すること」そのものに焦点を当てて作られました。
@@ -25,7 +25,7 @@ ReactとJSON Serverで開発されており、
 その中には、「考えを大切にしたい」という小さな哲学が込められています。
 
 **🇺🇸**  
-Small, but essential ideas.
+Small, but essential ideas.<br>
 The YellowMemo. project began one day with a single yellow sticky note left on a desk.
 We wanted to keep and share thoughts that popped into our minds—ideas that come and go in an instant.
 This app was created not to focus on complex features, but to simply honor the act of recording ideas.
@@ -82,17 +82,17 @@ It carries a quiet philosophy: to respect every thought, no matter how small.
 - Data managed with JSON Server (local mock DB).
 - Key tables: `user`, `post`, `textbox`, `image`, `postit`, `auth`
 
-📎 [Detailed API Docs](https://www.notion.so/207052ad29dc8064b4b6c6c46db69f2d)  
-📎 [DB Structure Notion](https://www.notion.so/DB-207052ad29dc80b1b986f21b748014ad)
+- [Detailed API Docs](https://www.notion.so/207052ad29dc8064b4b6c6c46db69f2d)  
+- [DB Structure Notion](https://www.notion.so/DB-207052ad29dc80b1b986f21b748014ad)
 ---
 ## 🎯 Purpose
 
-**🇯🇵**
-YellowMemo は、思いついたその瞬間のアイデアを素早く記録し、ビジュアルに整理するための空間を目指して開発されました。
+**🇯🇵**<br>
+YellowMemo は、思いついたその瞬間のアイデアを素早く記録し、ビジュアルに整理するための空間を目指して開発されました。<br>
 単なるメモアプリではなく、「アイデアを育てる庭」をコンセプトにしています。🌱
 
-**🇺🇸**
-YellowMemo was developed as a space to quickly capture and visually organize fleeting ideas.
+**🇺🇸**<br>
+YellowMemo was developed as a space to quickly capture and visually organize fleeting ideas.<br>
 It’s more than a memo app — it’s an idea garden. 🌱
 
 
