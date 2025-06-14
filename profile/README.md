@@ -37,10 +37,10 @@ It carries a quiet philosophy: to respect every thought, no matter how small.
 ---
 
 ## 🌟 主な機能 / Key Features
-**ドラッグ&ドロップ対応のメモボード / Drag & Drop Memo Board**
-
-🇯🇵 テキストボックスや画像を自由にドラッグして配置可能。位置情報はリアルタイムで保存され、UI上で直感的に操作できる。
+**ドラッグ&ドロップ対応のメモボード / Drag & Drop Memo Board**  
+```🇯🇵 テキストボックスや画像を自由にドラッグして配置可能。位置情報はリアルタイムで保存され、UI上で直感的に操作できる。
 🇺🇸 Textboxes and images can be freely dragged and positioned; their locations are updated in real time for intuitive interaction.
+```
 
 **インタラクティブなサイドバー / Interactive Sidebar**
 
