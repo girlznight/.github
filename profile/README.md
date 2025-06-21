@@ -1,8 +1,6 @@
 # 📝 YellowMemo.
 > 🗒️ YellowMemo is a sticky-note style idea board for your floating ideas.
 
-### [Branch 전략 - 꼭 보기!!!](https://github.com/girlznight/Project-GirzDay-react-repo/blob/main/README.md)
-
 <img alt="Image" src="https://github.com/user-attachments/assets/d91eb918-1423-4869-a666-5c2476aa4e3e" width="200" height="200"/>
 
   
